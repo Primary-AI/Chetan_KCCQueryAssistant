@@ -145,7 +145,7 @@ query = st.text_input("Enter your agricultural question:", placeholder="e.g. Fer
 submit = st.button("Get Advice")
 
 if query:
-    with st.spinner("🧠 Thinking... Generating answer..."):
+    with st.spinner("🧠 Thinking......"):
         def process():
             matches = search_query(query)
             if matches:
